@@ -1,0 +1,15 @@
+(.devops) Srivathss-MacBook-Pro:project-ml-microservice-kubernetes srivathslakshmi$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "udacitytraining" already exists
+NAME              READY   STATUS    RESTARTS   AGE
+udacitytraining   1/1     Running   0          48s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+Srivathss-MacBook-Pro:project-ml-microservice-kubernetes srivathslakshmi$ ./make_prediction.sh 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
